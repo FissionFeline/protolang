@@ -41,10 +41,8 @@ namespace proto {
                 {
                     case '+' :
                                 tokens.push_back(Token(TT::PLUS));
-                                break;
                     case '-' :
                                 tokens.push_back(Token(TT::MINUS));
-                                break;
                     case '*' : 
                                 tokens.push_back(Token(TT::MUL));
                     case '/' : 
